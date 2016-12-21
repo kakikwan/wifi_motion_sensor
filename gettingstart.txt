@@ -1,0 +1,23 @@
+Using with default firmware (IFTTT maker channel)
+
+1. Register account on ifttt.com
+2. Login web page https://ifttt.com/maker and connect maker channel
+3. Get you Maker Channel key (should be around 20 words)
+4. Using you smartphone, create an applet (event name like ir_sensor)
+5. Plugin USB power on Wi-Fi sensor module
+6. Press button to clear setting (can be skip for first setting)
+7. Use PC or smartphone to search and connect Wi-Fi station call "IFTTT setting"
+8. Open webpage http://192.168.4.1
+9. Follow the webpage instruction
+10.After completed, it will connect to IFTTT maker channel automatically
+
+
+
+For advanced user only (How to reflash source code into the module?)
+1. Press button (Press button before power on)
+2. Plugin USB power
+3. Use PC or smartphone to search and connect Wi-Fi station call "ota"
+4. Open webpage http://192.168.4.1
+5. In webpage, it can upload new source code file and delete it (init.lua and ota1.html can not be delete)
+6. After completed, replug the power without press button
+7. The Wi-Fi module will automaticaly run a file call "autorun.lua"
